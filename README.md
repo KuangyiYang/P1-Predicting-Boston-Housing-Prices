@@ -7,7 +7,11 @@ The Boston housing market is highly competitive, and you want to be the best rea
 
 #Software and Libraries
 Python 2.7
+
 NumPy
+
 scikit-learn
+
 matplotlib
+
 iPython Notebook
