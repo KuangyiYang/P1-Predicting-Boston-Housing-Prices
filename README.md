@@ -5,13 +5,22 @@ In this project, you will apply basic machine learning concepts on data collecte
 # Project Description
 The Boston housing market is highly competitive, and you want to be the best real estate agent in the area. To compete with your peers, you decide to leverage a few basic machine learning concepts to assist you and a client with finding the best selling price for their home. Luckily, you’ve come across the Boston Housing dataset which contains aggregated data on various features for houses in Greater Boston communities, including the median value of homes for each of those areas. Your task is to build an optimal model based on a statistical analysis with the tools available. This model will then be used to estimate the best selling price for your clients' homes.
 
-#Software and Libraries
-Python 2.7
+# Run Instruction:
 
-NumPy
+```python
+from sklearn import datasets
 
-scikit-learn
+city_data = datasets.load_boston()
 
-matplotlib
+# Get the labels and features from the housing data
+housing_prices = city_data.target
+housing_features = city_data.data
 
-iPython Notebook
+```
+
+# Software and Libraries
+- Python 2.7
+- NumPy
+- scikit-learn
+- matplotlib
+- iPython Notebook
